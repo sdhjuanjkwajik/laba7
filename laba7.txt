@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB</title>
+    <style>
+    body {
+  
+  font-family: Areal, sans-serif;
+  }
+  .foto{
+width: 400px;
+height: 500px;
+margin-bottom: 10px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+display: flex;
+justify-content: space-between;
+width: 800px;
+height: 1100px;
+background-color: #DCDCDC;
+}
+.left-side {
+display: flex;
+flex-direction: column;
+}
+.right-side {
+display: flex;
+flex-direction: column;
+}
+.rectangle {
+width: 370px;
+height: 350px;
+background-color: #C0C0C0;
+margin-bottom: 10px;
+margin-left: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p {
+  
+  color: #3c434a;
+}
+h3 {
+
+
+
+
+  font-size: 28px;  
+}  
+
+
+
+
+</style>
+</head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./lib/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Прямоугольник с вложенными прямоугольниками</title>
+</head>
+<body>
+<div class="container">
+<div class="left-side">
+<div class="foto"><span><img width="250" height="230" src=" https://sun9-19.userapi.com/impg/732EtSq1N5dvBUIIVxXK7bPiz0wEGDbskALpzg/AJdFzIABNEA.jpg?size=960x1280&quality=96&sign=ac8bb15b5917e0d1f0a72e565b69a714&type=album"></span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Контакты
+<div style="width: 160px; height: 12px; display: inline-block;"></div>
+</h3>
+<p>89502557121</p>
+<p>ada.fomina.00.00@gmail.com</p>
+</div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Языки</h3>
+<p>Русский, Английский
+<div style="width: 300px; height: 17px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Направления, которые
+<div> наиболее интересны
+</h3>
+<p>Игровая индустрия; разработка игр; 
+<p>искусственный интеллект
+
+
+<div style="width: 300px; height: 17px; display: inline-block"></div></li></p></span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Желаемая профессия<div style="width: 10px; height: 12px; display: inline-block"></h3>
+<p>Гейм дизайн
+</span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Интересы <div style="width: 160px; height: 12px; display: inline-block"></div></h3>
+<p>Компьютерные игры
+</span></div>
+</div>
+<div class="right-side">
+<div class="rectangle"><span><ul><h3 style="color: #1d2327">О себе
+<div style="width: 170px; height: 12px; display: inline-block"></div>
+</h3>
+<p>Я студент Ярославского Государственного Технического Университета. Занимаюсь маникюром, заинтересована в бьюти индустрии, индустрии дизайна и компьютерных игр.
+</p></span></div>
+<div class="rectangle"><span><ul><h3 style="color: #1d2327">Образование
+</h3>
+<p>Ярославский Государственный Технический Университет </p>
+<p> 09.03.04 “Программная инженерия” </p></span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Навыки 
+<div style="width: 180px; height: 12px; display: inline-block"></div></h3>
+<p>
+Коммуникабельность, стрессоустойчивость, 
+<p> адаптативность
+</p>
+</span></div>
+<div class="rectangle"><span><h3 style="color: #1d2327">Языки
+  <div> программирования</h3>
+<p>Python, С++
+<div style="width: 300px; height: 10px; display: inline-block"></div>
+</p></span></div>
+</div>
+</div>
+</body>
+</html>
